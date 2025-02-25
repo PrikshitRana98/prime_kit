@@ -1,0 +1,45 @@
+.footer {
+    padding: 50px 150px 10px 150px;
+    background-color: #F7F9FC;
+}
+
+
+.footer p {
+    font-size: 12px;
+    color: #6c757d;
+}
+
+.btn-custom {
+    background-color: #008aff !important;
+    color: white !important;
+    border-radius: 2px;
+    padding: 10px 20px;
+    border: none;
+}
+
+.btn-custom-outline {
+    color: #008aff;
+    border: 1px solid #008aff;
+    background: transparent;
+    padding: 10px 20px;
+    border-radius: 2px;
+}
+
+.btn-custom-outline:hover {
+    background-color: #008aff;
+    color: white;
+}
+
+.form-control {
+    border-radius: 2px;
+    padding: 12px;
+}
+
+.input-group-text {
+    background: white;
+    border-right: 0;
+}
+
+.is-pointer {
+    cursor: pointer;
+}
