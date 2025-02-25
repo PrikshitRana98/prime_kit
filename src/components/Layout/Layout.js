@@ -8,7 +8,6 @@ const Layout = () => {
     <>
       <Header />
       <main>
-        
         <Outlet/> {/* This is where child routes (pages) will be rendered */}
       </main>
       <Footer />

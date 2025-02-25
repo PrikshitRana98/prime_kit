@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-d
 import Layout from "./components/Layout/Layout";
 import Home from "./components/Home/Home";
 import Features from "./components/Feature/Features";
+import Solution from "./components/Solution/Solution";
 
 const Main = () => {
   return (
@@ -12,9 +13,8 @@ const Main = () => {
         <Route path="/" element={<Layout />}>
           <Route path="home" element={<Home />} />
           <Route path="feature" element={<Features />} />
-          {/* <Route path="solution" element={<Solution />} />
-          <Route path="solutions" element={<Solutions />} />
-          <Route path="pricing" element={<Pricing />} />
+          <Route path="solution" element={<Solution />} />
+          {/* <Route path="pricing" element={<Pricing />} />
           <Route path="*" element={<NotFound />} /> */}
         </Route>
       </Routes>
